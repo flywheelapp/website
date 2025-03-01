@@ -53,7 +53,7 @@ title: Flywheel - The Unlimited Canvas for Your Ideas
     </div>
   </div>
   <div class="container">
-    <div class="feature" style="display: flex; text-align: left;">
+    <div class="feature text-above-image" style="display: flex; text-align: left;">
       <div style="margin-left: 9px;">
         <h3>Your designs, all in one place</h3>
         <p>Flywheel features a simple and intuitive file management system in the sidebar. Easily organize your work by creating folders, dragging and rearranging documents, and customizing folder appearances to suit your workflow.</p>
@@ -125,6 +125,9 @@ title: Flywheel - The Unlimited Canvas for Your Ideas
     align-items: center;
     max-width: 500px;
   }
-}
+
+  .features .container .feature.text-above-image {
+    flex-direction: column-reverse;
+  }
 </style>
 
