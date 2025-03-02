@@ -17,12 +17,14 @@ font-style: normal;
   body { font-family: 'Inter', sans-serif; background: #f8f8f8; margin: 0; padding: 0; color: #333; }
   main {
     max-width: 960px;
+    display: flex;
   }
 </style>
 <body>
-    <header>
     <main>
-        {{ content }}
+        <div class="container">
+            {{ content }}
+        </div>
     </main>
 </body>
 </html>
