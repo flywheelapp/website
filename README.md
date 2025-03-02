@@ -1,1 +1,1 @@
-flywheel.wilsonzh.com
+https://flywheel.wilsonzh.com
