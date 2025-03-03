@@ -2,9 +2,8 @@
 layout: page
 title: "Flywheel Guide"
 permalink: /guide
+toc: true
 ---
-
-{% toc %}
 
 Create a new document
 ---------------------
