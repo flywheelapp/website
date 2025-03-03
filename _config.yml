@@ -31,8 +31,6 @@ url: "https://flywheel.wilsonzh.com" # the base hostname & protocol for your sit
 theme: minima
 plugins:
   - jekyll-feed
-
-gems:
   - jekyll-toc
 
 collections:

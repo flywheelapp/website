@@ -4,7 +4,7 @@ title: "Flywheel Guide"
 permalink: /guide
 ---
 
-{% include toc.html html=content %}
+{% toc %}
 
 Create a new document
 ---------------------
