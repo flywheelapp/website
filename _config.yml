@@ -18,20 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Flywheel
 email: wilson.zh@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Flywheel is a clean, simple but powerful app that lets you sketch your
+  thoughts and express your ideas freely. It has an unlimited blank
+  canvas where you can create diagrams to enhance your ideas.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flywheel.wilsonzh.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+# theme: minima
+theme: just-the-docs
+search_enabled: false
+footer_content: "Copyright &copy; 2025 Flywheel. All rights reserved."
+favicon_ico: "/assets/favicon.png"
+
+  #nav_enabled: false
 plugins:
   - jekyll-feed
-  - jekyll-toc
 
 collections:
   pages:
