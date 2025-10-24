@@ -15,19 +15,30 @@ There are several ways to create a new document:
 3. Use the File -> New menu to create a new document.
 4. Just <kbd>Command</kbd> + <kbd>N</kbd>.
 
-<img src="/assets/new-doc.png" alt="New Document" style="max-width: 600px; width: 100%;">
+<img src="/assets/new-doc.png" alt="New Document" style="max-width: 650px; width: 100%;">
 
 How to use the Gallery Extension
 --------------------------------
-We support third party shape libraries to extend shape templates. Currenty the extension for supporting [Excalidraw Libraries](https://libraries.excalidraw.com/) is already bundled with the application. Use the following instructions to install the libraries. If you encountered any issues, please report them [here](https://github.com/flywheelapp/flywheel/issues/new?template=BLANK_ISSUE). Once a library is installed, you can drag its components into your document.
+We support third party shape libraries to extend shape templates. Currenty the extension for supporting <a href="https://libraries.excalidraw.com/" target="_blank">Excalidraw Libraries</a> is already bundled with the application. Use the following instructions to install the libraries. Once a library is installed, you can drag its components into your document.
 
-<img src="/assets/help-gallery-ext.png" alt="Gallery Extension Usage" style="max-width: 600px; width: 100%;">
+<img src="/assets/help-gallery-ext.png" alt="Gallery Extension Usage" style="max-width: 650px; width: 100%;">
 
 Contact
 -------
-[wilson.zh@outlook.com](mailto:wilson.zh@outlook.com)
+For any issues, questions or suggestions, please do not hesitate to contact us.
 
-Issues
-------
-Feel free to share your suggestions, report issues, or provide feedback [here](https://github.com/flywheelapp/Flywheel/issues/new).
-
+{% if site.data.social-media %}
+<div id="social-media">
+    <ul>
+    {% assign sm = site.data.social-media %}
+    {% for entry in sm %}
+        {% assign key = entry | first %}
+        {% if sm[key].id %}
+        <li>
+            <i class="fa {{ sm[key].fa-icon }}"></i> <a href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}">{{ sm[key].id }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}

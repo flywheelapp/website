@@ -1,0 +1,17 @@
+email:
+  id: wilson.zh@outlook.com
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope'
+
+twitter:
+  id: '@wilzh0'
+  href: 'https://x.com/'
+  title: 'X'
+  fa-icon: 'fa-brands fa-x-twitter'
+
+github:
+  id: 'flywheelapp'
+  href: 'https://github.com/'
+  title: 'Github'
+  fa-icon: 'fa-brands fa-github'
